@@ -1,9 +1,12 @@
 package com.nkei.main;
 
+import com.nkei.n0_100.N12_IntegerToRoman;
+
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println(Runtime.version());
+        N12_IntegerToRoman soulution = new N12_IntegerToRoman();
+        System.out.println("Result: " + soulution.intToRoman(1994));
     }
 
 }
