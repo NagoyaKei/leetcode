@@ -1,6 +1,6 @@
 package com.nkei.main;
 
-import com.nkei.n0_100.N12_IntegerToRoman;
+import com.nkei.n0_1000.N12_IntegerToRoman;
 
 public class Main {
 

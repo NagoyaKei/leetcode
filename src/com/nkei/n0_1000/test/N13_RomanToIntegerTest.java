@@ -1,6 +1,6 @@
-package com.nkei.n0_100.test;
+package com.nkei.n0_1000.test;
 
-import com.nkei.n0_100.N13_RomanToInteger;
+import com.nkei.n0_1000.N13_RomanToInteger;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

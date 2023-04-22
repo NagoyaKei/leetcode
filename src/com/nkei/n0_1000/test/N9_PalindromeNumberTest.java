@@ -1,6 +1,6 @@
-package com.nkei.n0_100.test;
+package com.nkei.n0_1000.test;
 
-import com.nkei.n0_100.N9_PalindromeNumber;
+import com.nkei.n0_1000.N9_PalindromeNumber;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertFalse;

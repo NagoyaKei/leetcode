@@ -1,4 +1,4 @@
-package com.nkei.n0_100;
+package com.nkei.n0_1000;
 
 import java.util.ArrayList;
 import java.util.Arrays;

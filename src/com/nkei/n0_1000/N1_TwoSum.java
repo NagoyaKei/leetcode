@@ -1,4 +1,4 @@
-package com.nkei.n0_100;
+package com.nkei.n0_1000;
 
 public class N1_TwoSum {
 
