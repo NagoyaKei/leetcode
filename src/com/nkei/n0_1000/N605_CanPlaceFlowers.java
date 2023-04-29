@@ -13,10 +13,22 @@ package com.nkei.n0_1000;
 public class N605_CanPlaceFlowers {
 
     public boolean canPlaceFlowers(int[] flowerbed, int n) {
-        int freePlaces = 1; // for left plants
-        int seeded = 0;
+        int flowerbedLength = flowerbed.length;
+        if (flowerbedLength == 0) {
+            return false;
+        }
+        if (n == 0) {
+            return true;
+        }
+        if (flowerbedLength == 1 && n == 1) {
+            return flowerbed[0] == 0;
+        }
 
-        for (int flower : flowerbed) {
+        int seeded = 0;
+        int freePlaces = 1; // for left plants
+
+        for (int i = 0; i < flowerbedLength; i++) {
+            int flower = flowerbed[i];
             if (flower == 1) {
                 seeded += (freePlaces - 1) / 2;
                 freePlaces = 0;
